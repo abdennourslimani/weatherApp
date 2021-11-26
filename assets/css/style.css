@@ -1,0 +1,94 @@
+body{
+    color: white;
+    background-color: rgb(63, 49, 77);
+    margin : 0 ; 
+
+}
+
+#flex_city{
+    display: flex;
+
+
+}
+.input{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 15vw;
+    margin-top: 6vw;
+
+}
+
+.input input {
+    width: 41vw;
+    margin-right: 3vw;
+    height: 4vw;
+    border-radius: 3vw;
+    background: #3e3e4e;
+    padding-left: 2vw;
+
+    border: none;
+
+
+}
+
+.input input::placeholder{
+    color: white;
+    opacity: .8;
+}
+
+
+.input button{
+    width: 10vw;
+    border-radius: 35px;
+    background-color: rgb(37 31 43);
+    color: white;
+    font-weight: 900;
+    border: none;
+
+}
+
+
+
+
+#cityList{
+display: flex;
+flex-wrap: wrap;
+margin: 0 10vw;
+border: 1 px black;
+
+
+}
+
+.city{
+    width: 24vw;
+    background-color: rgb(37 31 43);
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+    border-radius: 15px;
+    padding-right: 7vw;
+    padding-left: 7vw;
+}
+
+
+
+#cityApi{
+    padding: 3vw;
+    margin: 0 30vw;
+    border-radius: 30px;
+    margin-bottom: 3vw;
+    background-color: rgb(37 31 43);
+
+}
+
+#cityApi{
+    text-align: center;
+
+}
+
+#h1{
+    text-align: center;
+    margin-top: 9vw;
+
+
+}
